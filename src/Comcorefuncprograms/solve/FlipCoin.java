@@ -1,4 +1,4 @@
-package Comcoreprograms.solve;
+package Comcorefuncprograms.solve;
 
 import java.util.Scanner;
 
@@ -11,8 +11,9 @@ public class FlipCoin {
         int Tcount=0;
         int Hcount=0;
        double fliprandom = (double) (Math.random()*2 );
+        System.out.println("fliprandom" + fliprandom);
        for(int i=0;i<t;i++) {
-           if (fliprandom == 0 && fliprandom<0.5) {
+           if ( fliprandom<0.5) {
                System.out.println("Tails");
                Tcount++;
            } else if(fliprandom>=0.5) {

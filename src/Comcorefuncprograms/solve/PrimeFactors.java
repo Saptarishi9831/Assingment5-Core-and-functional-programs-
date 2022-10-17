@@ -1,4 +1,4 @@
-package Comcoreprograms.solve;
+package Comcorefuncprograms.solve;
 import java.util.Scanner;
 
     public class PrimeFactors {

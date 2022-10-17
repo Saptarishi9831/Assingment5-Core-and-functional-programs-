@@ -1,4 +1,4 @@
-package Comcoreprograms.solve;
+package Comcorefuncprograms.solve;
 
 public class Swap {
     public static void main(String args[])
